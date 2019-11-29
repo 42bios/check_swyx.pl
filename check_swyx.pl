@@ -4,6 +4,10 @@
 # by Manuel Mahr manuel (at) it-mahr.com
 # 
 # Show Swyx Calls via SNMP incl. perfdata
+# - total calls
+# - active internal calls
+# - active external calls
+#
 #
 # Derived from check_ifoperstatus by Christoph Kron.
 # by Manuel Mahr manuel (at) it-mahr.com
