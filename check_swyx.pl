@@ -136,9 +136,9 @@ $active_inca = Math::BigInt->new($response->{$oid_active_inca});
 
 # exit
 if ( ! defined $debug && $state eq 'OK') {
-  print "OK - total calls: $total_calls - active internal calls: $active_inca - active external calls: $active_exca | total_calls=$total_calls active_exca=$active_exca active_inca=$active_inca\n";
+  print " OK - total calls: $total_calls - active internal calls: $active_inca - active external calls: $active_exca | total_calls=$total_calls active_exca=$active_exca active_inca=$active_inca\n";
 } else {
-  print "OK - total calls: $total_calls - active internal calls: $active_inca - active external calls: $active_exca | total_calls=$total_calls active_exca=$active_exca active_inca=$active_inca\n";
+  print " OK - total calls: $total_calls - active internal calls: $active_inca - active external calls: $active_exca | total_calls=$total_calls active_exca=$active_exca active_inca=$active_inca\n";
 }
 exit $ERRORS{$state};
 
